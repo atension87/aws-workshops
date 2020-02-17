@@ -2,7 +2,7 @@ version: 0.2
 
 env:
   variables:
-    BUCKET_PARAMETER_NAME: "/prod/codebuild/WEBSITE_BUCKET_NAME"
+    BUCKET_PARAMETER_NAME: "/prod/codebuild/STATIC_BUCKET_NAME"
     API_URL_PARAMETER_NAME: "/prod/frontend/API_URL"
     FRONTEND_DIR: "frontend"
     BUILD_DIR: "build"
