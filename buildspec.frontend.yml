@@ -12,7 +12,7 @@ phases:
     commands:
       - echo "Installing npm dependencies and jq..."
       - cd "$FRONTEND_DIR"
-      - npm install
+      - npm update
       - apt update
       - apt install jq
       - pip install --upgrade awscli
